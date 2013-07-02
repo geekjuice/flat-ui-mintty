@@ -16,7 +16,7 @@ How to apply
 
         git clone git://github.com/geekjuice/flat-ui-mintty
 
-* Then append to existing your .minttyrc:
+* Then append to your existing .minttyrc:
 
         cat /path/to/flat-minttyrc >> ~/.minttyrc
 
@@ -42,35 +42,36 @@ mix-and-match whatever colors you can think of.
 
 * Download the appropriate colorscheme based on how to you wish you install it
 
-* To change a color, find the [ANSI
+* Open the file and find the [ANSI
   Color](http://en.wikipedia.org/wiki/ANSI_escape_code) you wish to overwrite
   and replace it with the corresponding RGB color (e.g. 255,0,0 for red) or HEX
-  Triplet (e.g. #FF0000) for flat-minttyrc and flat-mintty respectively.
+  Triplet (e.g. #FF0000 for red) for flat-minttyrc and flat-mintty respectively.
 
 * Install using the instructions above, but point the source file to your custom
-  coloescheme
+  file
 
 
 Troubleshoot
 ------------
 
-Q: The colors don't seem to be applied or rendering correctly even after
-restarting mintty...
+Q: The colors don't seem to be applied or rendered correctly even after
+   restarting mintty...
 
-A: There's a good change your terminal isn't set to proper color setting. In
-mintty, go to Options > Terminal > Type and select xterm-256color
-It is also a good idea to set it within the terminal by adding the
-following line to wither your bashrc, profile, etc.
+A: There's a good change your terminal isn't set to the proper color setting.
+   In mintty, go to Options > Terminal > Type and select xterm-256color.
+   It's also a good idea to set it within the terminal by adding the
+   following line to your .bashrc, .profile, etc.
 
         export TERM=xterm-256color
 
 
 Q: I applied the colors using flat-mintty, but decided to go back to the
-default colors.
+   default colors.
 
 A: I haven't tested this, but in case deleting the script and restarting
-mintty doesn't revert back to the default colorscheme, you download the 
-[default-mintty](default-mintty) script provided to revert back to normal.
+   mintty doesn't revert the terminal back to the default colorscheme, you can
+   download the [default-mintty](default-mintty) script provided and source it to 
+   revert back to normal.
 
 
 License
