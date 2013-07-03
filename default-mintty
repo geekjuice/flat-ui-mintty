@@ -2,9 +2,9 @@
 # DEFAULTS
 #==========================================================
 # Background
-echo -ne '\e]10;#000000\a'    # Black foreground
-echo -ne '\e]11;#C0C0C0\a'    # Light gray background
-echo -ne '\e]12;#00FF00\a'    # Green cursor
+echo -ne '\e]10;#ECF0F1\a'    # White foreground
+echo -ne '\e]11;#181818\a'    # Dark Gray Background
+echo -ne '\e]12;#D35400\a'    # Pumpkin
 
 # Foreground
 echo -ne '\e]4;0;#000000\a'   # black
