@@ -2,7 +2,7 @@
 # FLAT UI
 #==========================================================
 # Background
-echo -ne '\e]10;#ECF0F1\a'    # Cloud Foreground
+echo -ne '\e]10;#BDC3C7\a'    # Cloud Foreground
 echo -ne '\e]11;#181818\a'    # Dark Gray Background
 echo -ne '\e]12;#D35400\a'    # Pumpkin
 
